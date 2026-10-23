@@ -76,11 +76,5 @@ Le projet applique plusieurs concepts fondamentaux de la programmation orientée
 - **Polymorphisme :** chaque type de patient dispose de son propre calcul de facture.
 - **Séparation des responsabilités :** la classe `Depot` gère les accès à la base de données, tandis que `Application` gère l’interface graphique.
 
-## 🚀 Installation et lancement
-
-### Prérequis
-- Python 3.
-- Tkinter disponible dans l’installation de Python.
-
 
 
