@@ -553,7 +553,6 @@ class Depot:
             return conn.execute("""
                 SELECT s.id, s.nom, s.nombre_lits,
                        SUM(CASE WHEN p.present = 1
-                                     AND p.type_prise_en_charge = 'Hospitalisation'
                                 THEN 1 ELSE 0 END) AS occupes
                 FROM services s
                 LEFT JOIN patients p ON p.service_id = s.id
@@ -665,6 +664,7 @@ class Application(tk.Tk):
         self.rafraichir_services()
         self.rafraichir_medecins()
         self.rafraichir_liste()
+        # Le tableau de bord s’ouvre uniquement lorsque l’utilisateur clique sur son bouton.
 
     def ouvrir_tableau_bord(self):
         """Ouvre le tableau de bord ; une seule fenêtre est maintenue à la fois."""
