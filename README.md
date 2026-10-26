@@ -1,1 +1,5 @@
 # GestionHopital
+Ce projet a été réalisé dans le cadre du module Python avancé. Il consiste à développer une application de gestion d'hôpital qui permet d'enregistrer les patients, de les rattacher à un service hospitalier, de les associer à un ou plusieurs médecins et de calculer automatiquement leur facture selon le type de prise en charge (consultation, hospitalisation ou urgence).
+L'application reste volontairement compacte : une seule fenêtre regroupe le formulaire de saisie, la gestion des services et des médecins et la liste des patients, avec une recherche en direct, la modification d'un patient par double-clic et une confirmation avant toute suppression.
+L'objectif est de mettre en pratique, dans une seule application, la programmation orientée objet, l'accès à une base de données relationnelle et la création d'une interface graphique.
+Le rapport présente d'abord l'application et son architecture, puis le modèle objet, la base de données, les interfaces graphiques et les extraits de code les plus importants et se termine par une conclusion.
